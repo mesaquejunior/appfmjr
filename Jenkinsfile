@@ -26,7 +26,7 @@ pipeline {
                 "-Dsonar.projectVersion=1.0 " +
                 "-Dsonar.language=js " +
                 "-Dsonar.sourceEncoding=UTF-8 " +
-                "-Dsonar.exclusions=src/*tests*/*.test.ts"
+                "-Dsonar.exclusions=src/*tests*/*.test.ts" +
                 "-Dsonar.test.inclusions=src/*tests*/*.test.ts " +
                 "-Dsonar.typescript.lcov.reportPaths=coverage/lcov.info " +
                 "-Dsonar.testExecutionReportPaths=coverage/clover.xml " +
