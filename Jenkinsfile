@@ -21,7 +21,7 @@ pipeline {
     }
     stage('Sonarqube Scanner') {
         steps {
-            withSonarQubeEnv(credentialsId: 'sonarqube-auth') {
+            withSonarQubeEnv('sonarqube') {
                 sh "${scannerHome}/sonar-scanner/bin/sonar-scanner " +
                 "-Dsonar.projectVersion=1.0 " +
                 "-Dsonar.language=js " +
