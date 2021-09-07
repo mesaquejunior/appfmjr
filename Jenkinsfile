@@ -10,7 +10,6 @@ pipeline {
     }
     stage('Installing requirements') {
       steps {
-        sh 'export  ${env.WORKSPACE}'
         sh 'npm run install'
       }
     }
