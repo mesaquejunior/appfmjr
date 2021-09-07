@@ -22,7 +22,7 @@ pipeline {
     stage('Sonarqube Scanner') {
         steps {
             withSonarQubeEnv('sonarqube') {
-                sh "/var/jenkins_home/sonar-scanner/bin/sonar-scanner " +
+                sh "/data/jenkins/sonar-scanner/bin/sonar-scanner " +
                 "-Dsonar.projectVersion=1.0 " +
                 "-Dsonar.language=js " +
                 "-Dsonar.sourceEncoding=UTF-8 " +
