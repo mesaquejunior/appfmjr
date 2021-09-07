@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "license": "MIT",
+  "description": "This is an example app using Node, TypeScript, Jest and Docker for a CICD with Jenkins and Sonarqube",
   "devDependencies": {
     "@types/cors": "^2.8.12",
     "@types/express": "^4.17.13",
@@ -25,5 +26,9 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mesaquejunior/appfmjr.git"
   }
 }
